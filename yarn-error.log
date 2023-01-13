@@ -1,0 +1,49 @@
+Arguments: 
+  /home/saebk/.configkde/nvm/versions/node/v19.0.1/bin/node /usr/share/yarn/bin/yarn.js add @polkadot/api
+
+PATH: 
+  /home/saebk/.configkde/nvm/versions/node/v19.0.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/home/saebk/Android/Sdk/tools:/home/saebk/Android/Sdk/platform-tools:/home/saebk/Library/Android/Sdk/emulator:/home/saebk/Library/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.0.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@polkadot%2fapi: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/share/yarn/lib/cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:831:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:547:8)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "startnode",
+    "version": "1.0.0",
+    "description": "try and test",
+    "main": "hello.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "node",
+      "polka"
+    ],
+    "author": "saeb khanzadeh",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
